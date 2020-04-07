@@ -1,0 +1,217 @@
+/*CSS for Danny Nguyen, photography website*/
+
+/* used to style the background color of the website */
+body {
+  background-color:#ABAB9A;
+  color: white;
+
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #EBEB2D;
+  color: white;
+}
+
+.image-txt-container {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+}
+
+
+/* changed the color and font style of the title*/
+header {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  src: url("Amlight.ttf");
+  font-family: 'Montserrat', sans-serif;
+  font-size-adjust: auto;
+}
+
+
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* headers css*/
+.h1 {
+  text-align: left;
+  font-family: 'Caveat', cursive;
+  text-decoration-color: yellow;
+  color:#333;
+}
+
+.h2 {
+  text-align: left;
+  font-family: Mate sc;
+  color:#333;
+}
+
+.h3 {
+  text-align: center;
+  font-family: Mate sc;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+  color:#333;
+
+}
+
+.h4 {
+  text-align: center;
+  font-family: Mate sc;
+  color:black;
+  position: relative;
+  top:100px;
+  text-decoration: underline;
+}
+
+.h5 {
+  text-align: left;
+  text-decoration: underline;
+}
+
+/*css for paragraphs*/
+P {
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  font-size:15px;
+  font-family: fantasy;
+  color:white;
+  }
+
+
+
+}
+
+
+
+@media screen and (max-width:500px)
+{
+.grid{
+    display:grid;
+    grid-template-columns: auto;
+    background-color: rgba(0, 150, 0, 0.5);
+    grid-gap: 10px;
+
+}
+
+.par {
+  margin-top: 100px;
+  text-align: justify !important;
+  padding:10px;
+}
+
+.start {
+  text-align: justify !important;
+  padding: 10px;
+  }
+.top {
+  margin-top: 10px
+  padding:10px;
+}
+/*mobile*/
+
+@media screen and (min-width: 500px)
+{
+
+nav {
+  background-size:100%;
+  background-origin: content;
+  background-repeat: no-repeat;
+  font-family:Palatino;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ABAB9A;
+  grid-gap:10px;
+  padding:10px;
+}
+
+.par {
+  grid-column: 1/4;
+  text-align: center !important;
+  padding: 10px;
+  color:white;
+}
+
+.start {
+  grid-column: 1/4;
+  text-align: justify !important;
+  padding: 10px;
+}
+
+.top {
+  grid-column: 1/4;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+.grid-item {
+  background-color: #ABAB9A(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+
+.long{
+  grid-row: 2 /span 2;
+}
+
+.h1 {
+  text-align: center;
+}
+.h3{
+  text-align: center;
+}
+
+img {
+  max-width: 100% ;
+  height: auto ;
+}
+
+
+}
